@@ -1,5 +1,6 @@
-# archlinux-tf2-fix
 Fix for Team Fortress 2 not launching on archlinux. Replaces 'faulty' libtcmalloc_minimal.so.4 library with correct libmimalloc.so from https://github.com/ErnyTech/libmimalloc-sys
+
+See the [Wiki](https://github.com/MightySpaceman/source2-linux-fixes/wiki)
 
 To fix, run `curl https://raw.githubusercontent.com/MightySpaceman/archlinux-tf2-fix/main/tf2-fix.sh | bash`
 
